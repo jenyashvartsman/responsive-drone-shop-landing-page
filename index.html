@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drone Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <!-- logo -->
+      <img src="images/logo.svg" alt="logo" class="navbar__logo" />
+
+      <!-- links -->
+      <ul class="navbar__links">
+        <li>
+          <a href="#">Mavic</a>
+        </li>
+
+        <li>
+          <a href="#">Air</a>
+        </li>
+
+        <li>
+          <a href="#">Mini</a>
+        </li>
+
+        <li>
+          <a href="#">Other</a>
+        </li>
+      </ul>
+
+      <!-- menu button -->
+      <i
+        class="navbar__menu fa fa-bars"
+        aria-hidden="true"
+        onclick="toggleNavbarLinks()"
+      ></i>
+    </nav>
+
+    <!-- content -->
+    <main class="container">
+      <div class="drone">
+        <div class="drone__details">
+          <h3>
+            MAVIC 3
+            <br />
+            CLASSIC
+          </h3>
+          <p>With a transmission distance of up to 15 km</p>
+          <strong>$1,599</strong>
+          <button>Buy Now</button>
+        </div>
+
+        <img class="drone__image" src="images/drone.png" alt="drone" />
+      </div>
+    </main>
+
+    <!--  footer  -->
+    <footer class="footer">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
